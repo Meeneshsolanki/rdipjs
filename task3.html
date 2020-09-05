@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>PalinDrome And Anagram.</title>
+</head>
+
+<body>
+    <h1 align="center"> PalinDrome</h1>
+    <form name="form1" style="padding: 20px 200px 200px 200px;">
+        <div class="form-group row">
+            <label for="word" class="col-sm-2 col-form-label">Enter a Word.</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="word" placeholder="Enter a Word" name="word">
+            </div>
+        </div>
+        <div class="form-group row" style="padding: 20px;">
+            <div class="col-sm-10">
+                <button type="submit" name="submit" value="Submit" id="submit" onclick="palindrome();" class="btn btn-primary">Submit </button>
+            </div>
+        </div>
+    </form>
+    <h1 align="center"> Anagram</h1>
+    <form name="form2" style="padding: 20px 200px 200px 200px;">
+        <div class="form-group row">
+            <label for="word" class="col-sm-2 col-form-label">Enter a String of Words.</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="stringofwords" placeholder="Enter string of words" name="stringofwords">
+            </div>
+        </div>
+        <div class="form-group row">
+            <label for="word" class="col-sm-2 col-form-label">Enter a word.</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="word1" placeholder="Enter word" name="word1">
+            </div>
+        </div>
+        <div class="form-group row" style="padding: 20px;">
+            <div class="col-sm-10">
+                <button type="submit" name="submit" value="Submit" id="submit" onclick="anagram();" class="btn btn-primary">Submit </button>
+            </div>
+        </div>
+    </form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
